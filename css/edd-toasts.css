@@ -1,0 +1,90 @@
+/* For data notification */
+
+.notification-toast {
+    display: flex;
+    align-items: start;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    gap: 15px;
+    max-width: 450px;
+}
+
+.notification-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.edd-toast {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}
+
+.notification-icon img {
+    max-width: 60px;
+    height: auto;
+}
+
+.notification-content {
+    flex-grow: 1;
+}
+
+.notification-title {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin: 0;
+    color: #6f7681;
+    line-height: 1 !important;
+}
+
+.notification-description {
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: #3c3e4b;
+    margin: 8px 0;
+    font-weight: 500;
+    font-family: "Roboto";
+    line-height: 1.2 !important;
+}
+
+.notification-time {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+.company-name {
+    color: #9053c7;
+}
+
+.notification-close {
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.notification-close:hover {
+    color: #d00;
+}
+
+@media (max-width: 576px) {
+    .notification-toast {
+        display: none;
+    }
+}
