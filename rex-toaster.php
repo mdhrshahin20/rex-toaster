@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: EDD Order Toasts for RexTheme
+Plugin Name: EDD Order Toasts for RexTheme From develop
 Plugin URI: http://rextheme.com
 Description: Display random order toast notifications from the last three days.
 Version: 1.0.0
